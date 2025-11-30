@@ -1,7 +1,7 @@
 # DCTS - Direct Communication Through Sockets
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M719FPNG) 
 
-[Visit our subreddit](https://www.reddit.com/r/dcts/) • [Feature list](https://github.com/hackthedev/dcts-shipping/blob/beta/docs/Feature%20List.md) • [Discord for convenience](https://discord.gg/AYq8hbRHNR) • [Public Instance](https://chat.network-z.com/) • [To-Do list](https://github.com/users/hackthedev/projects/6/views/1?filterQuery=-changelog-status%3AAdded+-status%3ACanceled)
+[Visit our subreddit](https://www.reddit.com/r/dcts/) • [Feature list](https://github.com/hackthedev/dcts-shipping/blob/beta/docs/Feature%20List.md) • [Discord for convenience](https://discord.gg/AYq8hbRHNR) • [Public Instance](https://chat.network-z.com/) • [To-Do list](https://github.com/users/hackthedev/projects/6/views/1?filterQuery=-changelog-status%3AAdded+-status%3ACanceled) • [Install with Docker](https://github.com/hackthedev/dcts-shipping/blob/beta/Install%20with%20Docker.md)
 
 This project was made with the goal to provide a platform that aims to fix issues with existing solutions like Discord, TeamSpeak, Revolt, Fosscord, Matrix, TeaSpeak and all others out there and to create new, advanced and easy to use features while creating as little friction as possible and keeping things intuitive.
 
@@ -68,17 +68,11 @@ DCTS isn't just a chat platform, it's a vision for better communication, driven 
 
 ## Installing
 ### Docker
-To install via docker you can either clone and build or use the prebuilt image.
-```
-sudo docker run --name dcts-server  -p 8080:2052 ghcr.io/hackthedev/dcts-shipping
-```
-or via docker-compose:
-```
-curl -L -O https://github.com/hackthedev/dcts-shipping/raw/main/docker/docker-compose.yml
-sudo docker compose up -d
-```
+#### Quick Start :
+If you want to get started quickly, you can use a setup script to automatically create the Docker Compose setup: [soon]
 
-<br>
+#### Manually :
+Alternatively, you can install DCTS manually using docker compose or docker run. See the full documentation here: [Install with Docker](https://github.com/hackthedev/dcts-shipping/blob/beta/Install%20with%20Docker.md)
 
 ### NPM
 
